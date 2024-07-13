@@ -1,42 +1,228 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [
+          {
+            "label": "MarketPlace",
+            "url": "/"
+          },
+          {
+            "label": "About",
+            "url": "/"
+          },
+          {
+            "label": "Resources",
+            "url": "/"
+          },
+          {
+            "label": "FAQ",
+            "url": "/"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Log in",
+            "href": "/",
+            "outline": true
+          },
+          {
+            "href": "/",
+            "text": "Sign Up"
+          }
+        ]
       },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
+      "logo": {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbKp6imUJNtM62aKLtcgiZoIsC1vB8mb2Gjw&s"
       }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<h1><strong><span style=\"color: #441282\">Music for NFT creators.</span></strong></h1>",
+      "cta": [],
+      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11666/9d2659c9-18c6-4a20-a803-7cd916801c4a"
+    },
+    {
+      "__resolveType": "site/sections/Logos.tsx",
+      "title": "Digital music for Fans.",
+      "logos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUHzriijWwDAl1TW82F1zljgTupwdxFJe7GQ&s"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUHzriijWwDAl1TW82F1zljgTupwdxFJe7GQ&s"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUHzriijWwDAl1TW82F1zljgTupwdxFJe7GQ&s"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUHzriijWwDAl1TW82F1zljgTupwdxFJe7GQ&s"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUHzriijWwDAl1TW82F1zljgTupwdxFJe7GQ&s"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUHzriijWwDAl1TW82F1zljgTupwdxFJe7GQ&s"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUHzriijWwDAl1TW82F1zljgTupwdxFJe7GQ&s"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUHzriijWwDAl1TW82F1zljgTupwdxFJe7GQ&s"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUHzriijWwDAl1TW82F1zljgTupwdxFJe7GQ&s"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "How do Music NFTs work?",
+      "description": "Music NFTs are digital assets that represent ownership of a unique piece of music. Artists mint these NFTs on a blockchain, and fans can buy, sell, and trade them. Ownership and authenticity are verified through the blockchain.",
+      "disableSpacing": {
+        "top": false
+      },
+      "image": "https://www.billboard.com/wp-content/uploads/2022/03/market-opener-2022-bb3-billboard-pro-1260.jpg?w=681&h=383&crop=1",
+      "cta": [
+        {
+          "style": "Ghost",
+          "text": "Know more",
+          "href": "/"
+        }
+      ],
+      "tagline": "nft"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "placement": "right",
+      "title": "Music NFT Marketplace",
+      "description": "Create your first music NFTs with NFT market for musicians. Create music and music videos just under the $1, the platform works with BSC blockchain and supports mp4. With AirNFTs, you are getting the control over your NFTs, no middle man cutting your sales. Create, Buy, Sell and Earn with your music NFTs.",
+      "tagline": "music",
+      "image": "https://www.billboard.com/wp-content/uploads/2022/03/BILLBOARD-BLOCKCHAIN_04-Dance-Shira-Inbar.gif?w=681&h=383&crop=1",
+      "cta": [
+        {
+          "style": "Ghost",
+          "text": "Explore marketplace",
+          "href": "/"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "title": "Discover Music NFT",
+      "posts": [
+        {
+          "tags": [],
+          "image": "https://youthful-swartz-a170a5.netlify.app/1.png",
+          "title": "Heart & Sol",
+          "author": "16 Tokens",
+          "excerpt": "30 min",
+          "date": "10-02-2009"
+        },
+        {
+          "tags": [],
+          "image": "https://youthful-swartz-a170a5.netlify.app/2.png",
+          "title": "Heart and sol",
+          "author": "ark",
+          "excerpt": "30 min",
+          "date": "09-08-2021"
+        },
+        {
+          "tags": [],
+          "image": "https://youthful-swartz-a170a5.netlify.app/3.png",
+          "date": "04-03-2022",
+          "excerpt": "30 min",
+          "author": "ark",
+          "title": "Heart and sol"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "arrows": true,
+      "dots": false,
+      "title": "Engage your Fans with community",
+      "slides": [
+        {
+          "content": {
+            "description": "\"I recently purchased a Music NFT from my favorite artist, and the experience has been incredible! Not only do I own a unique piece of their music, but I also received exclusive behind-the-scenes content and a virtual meet-and-greet. It's amazing to support artists directly and get such unique perks. Highly recommend diving into the world of Music NFTs!\" - Alex T.",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11666/6c31a8e9-66ff-4131-bb21-2435829b88ee"
+          }
+        },
+        {
+          "content": {
+            "description": "\"Buying a Music NFT has been a game-changer for me. I now own a rare track from an emerging artist, and it feels like I’m part of an exclusive club. Plus, I get to support artists directly without any middlemen. The entire process was seamless and exciting!\" - Jamie R.",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11666/6783859b-1421-407b-8741-a7aed1d09eaa"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx",
+      "title": "FAQs",
+      "description": "Welcome to our FAQs section! Here, you'll find answers to common questions about our products/services. Whether you're curious about features, pricing, or support, we've got you covered. Explore below to find quick solutions to your queries.",
+      "cta": {
+        "href": "/",
+        "text": "more",
+        "outline": true
+      },
+      "questions": [
+        {
+          "title": "What payment methods do you accept?",
+          "answer": "<p>We accept payments via credit/debit cards (Visa, Mastercard, American Express), PayPal, and bank transfers. For specific inquiries or alternative payment options, please contact our support team at <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:support@example.com\">support@example.com</a>.</p>"
+        },
+        {
+          "title": "How can I reset my password?",
+          "answer": "<p>To reset your password, simply navigate to the login page and click on the \"Forgot Password\" link. Follow the instructions sent to your registered email address to create a new password. If you encounter any issues, please reach out to our support team for assistance.</p>"
+        },
+        {
+          "title": "Do you offer customer support?",
+          "answer": "<p>Yes, we provide dedicated customer support via email and live chat. Our support team is available Monday through Friday, 9 AM to 6 PM (UTC). For urgent inquiries outside these hours, please leave us a message, and we'll get back to you as soon as possible.</p>"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "links": [],
+      "bottomLinks": [],
+      "social": [
+        {
+          "network": "Facebook",
+          "href": "https://www.facebook.com/"
+        },
+        {
+          "network": "Instagram",
+          "href": "https://www.instagram.com/"
+        },
+        {
+          "network": "Linkedin",
+          "href": "https://www.linkedin.com"
+        },
+        {
+          "network": "X - Twitter",
+          "href": "https://x.com/?lang=en"
+        },
+        {
+          "network": "Youtube",
+          "href": "https://www.youtube.com/"
+        }
+      ],
+      "subscribe": {
+        "instructions": "<pre><code></code></pre>",
+        "title": "Shape the NFT Music",
+        "description": "join us @Zora"
+      },
+      "logo": {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbKp6imUJNtM62aKLtcgiZoIsC1vB8mb2Gjw&s"
+      }
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}
